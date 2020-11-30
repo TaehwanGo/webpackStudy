@@ -15,9 +15,9 @@ Studying webpack to supplement Chapter 4, webpack part in wetube
 <br>
 <br>
 # Note
-1. CORS policy 이슈
-- express로 서버를 만들어서 하려다가 잘 안돼서 로컬로 실행하려 했으나 CORS policy 관련에러 발생
-- npm install http-server -g 후 npx http-server로 해결
+1. CORS policy 이슈<br>
+- express로 서버를 만들어서 하려다가 잘 안돼서 로컬로 실행하려 했으나 CORS policy 관련에러 발생<br>
+- npm install http-server -g 후 npx http-server로 해결<br>
 - 참고 : https://velog.io/@takeknowledge/%EB%A1%9C%EC%BB%AC%EC%97%90%EC%84%9C-CORS-policy-%EA%B4%80%EB%A0%A8-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%B0%9C%EC%83%9D%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-3gk4gyhreu
 
 2. 웹팩(번들러) : 웹에서도 모듈의 개념 + 여러개의 파일을 묶어서 제공(성능향상)
