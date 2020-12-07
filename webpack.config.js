@@ -10,14 +10,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.(css)$/i,
         use: [
           'style-loader',
-          'css-loader',
+          'css-loader' // 뒤쪽에 있는 로더가 먼저 실행 됨
         ]
-      }
-    ]
-  }
+      },
+    ],
+  },
 };
 // npx webpack --entry ./source/index.js --output ./public/index_bundle.js 와 똑같은 코드
 
