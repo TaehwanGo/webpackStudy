@@ -2,11 +2,11 @@ Studying webpack to supplement Chapter 4, webpack part in wetube
 - 생활코딩
 
 - [x] 1. 수업소개
-- [ ] 2. 웹팩 이전의 세계와 모듈
-- [ ] 3. 웹팩의 도입
-- [ ] 4. 설정 파일 도입
-- [ ] 5. 모드의 도입
-- [ ] 6. 로더의 도입
+- [x] 2. 웹팩 이전의 세계와 모듈
+- [x] 3. 웹팩의 도입
+- [x] 4. 설정 파일 도입
+- [x] 5. 모드의 도입
+- [x] 6. 로더의 도입
 - [ ] 7. output 설정
 - [ ] 8. 플러그인의 도입
 - [ ] 9. 선물
@@ -26,3 +26,4 @@ Studying webpack to supplement Chapter 4, webpack part in wetube
 - 프로젝트 이름을 webpack으로 만들어서 webpack이 설치가 안됨
 - package.json 의 name을 webpack에서 webpackStudy로 변경
 
+6. loader 적용안됨 -> webpack.config.prod.js 파일 삭제 후 적용 됨
