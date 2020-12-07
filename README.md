@@ -14,7 +14,7 @@ Studying webpack to supplement Chapter 4, webpack part in wetube
 - [ ] 11. 수업을 마치며
 <br>
 <br>
-# Note
+# Note<br>
 1. CORS policy 이슈<br>
 - express로 서버를 만들어서 하려다가 잘 안돼서 로컬로 실행하려 했으나 CORS policy 관련에러 발생<br>
 - npm install http-server -g 후 npx http-server로 해결<br>
@@ -25,3 +25,4 @@ Studying webpack to supplement Chapter 4, webpack part in wetube
 3. webpack 설치 안됨
 - 프로젝트 이름을 webpack으로 만들어서 webpack이 설치가 안됨
 - package.json 의 name을 webpack에서 webpackStudy로 변경
+
