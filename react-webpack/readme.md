@@ -36,3 +36,36 @@ module.exports = {
 ```
 npm run build
 ```
+
+- build 된 파일 생성 됨
+
+## 웹팩으로 HTML 파일 빌드하기
+
+- 웹팩은 자바스크립트 뿐만 아니라 다른 파일도 모듈로 관리할 수 있다
+  - 웹팩 로더(loader)
+- 로더는 JS파일이 아닌 파일을 웹팩이 이해할 수 있게 해줌
+
+```js
+
+module.exports = {
+  // ...
+  module : {
+    rules: {
+      test: '가지고올 파일 정규식',
+      use: [
+        {
+          loader: '사용할 로더 이름',
+          options: { 사용할 로더 옵션 }
+        }
+      ]
+    }
+  }
+}
+```
+
+### html noscript tag
+
+- noscript 태그 안의 내용은 스크립트를 지원하는 않는 웹브라우저나 스크립트를 실행하지 않도록 설정한 웹브라우저에서만 출력됩니다.
+- https://www.codingfactory.net/10249
+
+### html과 같이 빌드하면 번들링된 js 파일이 해당 html에 포함된다
