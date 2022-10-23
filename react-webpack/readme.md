@@ -69,3 +69,12 @@ module.exports = {
 - https://www.codingfactory.net/10249
 
 ### html과 같이 빌드하면 번들링된 js 파일이 해당 html에 포함된다
+
+## 웹팩으로 리액트 빌드하기
+
+- webpack.config.js에 resolve extension 설정을 해야 된다
+
+### 빌드 파일 -> process is not defined
+
+- https://stackoverflow.com/questions/41359504/webpack-bundle-js-uncaught-referenceerror-process-is-not-defined
+  - dotenv 패키지 설정필요
