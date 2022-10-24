@@ -108,3 +108,5 @@ use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"];
 - 소스코드를 알아서 빌드해주는 webpack-dev-server를 사용해보자
 - webpack 5에선 contentBase -> static.directory로 변경 되었다
   - https://webpack.kr/configuration/dev-server/
+
+## 빌드 디렉터리 깨끗하게 하기
