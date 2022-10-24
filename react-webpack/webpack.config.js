@@ -2,6 +2,7 @@ const path = require("path");
 const webpack = require("webpack");
 const dotenv = require("dotenv");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 dotenv.config();
 
@@ -33,6 +34,10 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.css$/,
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
+      },
     ],
   },
   plugins: [
@@ -42,6 +47,9 @@ module.exports = {
     }),
     new webpack.DefinePlugin({
       "process.env": JSON.stringify(process.env),
+    }),
+    new MiniCssExtractPlugin({
+      filename: "style.css",
     }),
   ],
 };

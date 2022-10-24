@@ -78,3 +78,16 @@ module.exports = {
 
 - https://stackoverflow.com/questions/41359504/webpack-bundle-js-uncaught-referenceerror-process-is-not-defined
   - dotenv 패키지 설정필요
+
+## 웹팩에서 CSS 사용하기
+
+```js
+{
+  test: /\.css$/,
+  use: [MiniCssExtractPlugin.loader, "css-loader"],
+},
+```
+
+- loader순서는 오른쪽에서 왼쪽 순서로 실행 됨
+  - css-loader로 css파일을 읽고
+  - MiniCssExtractPlugin.loader로 읽은 CSS를 파일로 추출해냄
