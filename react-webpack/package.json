@@ -4,7 +4,8 @@
   "description": "## 프로젝트 설정하기",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",

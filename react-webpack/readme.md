@@ -101,3 +101,10 @@ use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"];
 - sass-loader로 scss 파일을 읽고 css로 변환한 후
 - css-loader로 css 읽습니다.
 - MiniCssExtractPlugin으로 읽은 CSS를 파일로 추출합니다.
+
+## 웹팩 개발 서버 적용하기
+
+- 수정할 때마다 직접 빌드하는 것은 매우 귀찮은 일이다
+- 소스코드를 알아서 빌드해주는 webpack-dev-server를 사용해보자
+- webpack 5에선 contentBase -> static.directory로 변경 되었다
+  - https://webpack.kr/configuration/dev-server/

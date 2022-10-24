@@ -16,6 +16,13 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx"],
   },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, "build"),
+    },
+    port: 3500,
+    hot: true,
+  },
   module: {
     rules: [
       {
