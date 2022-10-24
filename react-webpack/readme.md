@@ -91,3 +91,13 @@ module.exports = {
 - loader순서는 오른쪽에서 왼쪽 순서로 실행 됨
   - css-loader로 css파일을 읽고
   - MiniCssExtractPlugin.loader로 읽은 CSS를 파일로 추출해냄
+
+## 웹팩에서 SCSS 사용하기
+
+```js
+use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"];
+```
+
+- sass-loader로 scss 파일을 읽고 css로 변환한 후
+- css-loader로 css 읽습니다.
+- MiniCssExtractPlugin으로 읽은 CSS를 파일로 추출합니다.

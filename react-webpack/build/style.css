@@ -1,6 +1,9 @@
 .title {
   color: #2196f3;
   font-size: 52px;
-  text-align: center;
-}
+  text-align: center; }
+
+.sub-title {
+  color: orange;
+  font-size: 28px; }
 
